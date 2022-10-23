@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietto Treno Form</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- script -->
+    <script src="java-script/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>calcola il prezzo del tuo Biglietto</h1>
+
+        <div class="price-container">
+            
+            <div class="info-container">
+                <div class="card">
+                    <p class="info-passenger">Nome e Cognome</p>
+                    <input type="text" placeholder="" id="name-surname">
+                </div>
+                <div class="card">
+                    <p class="info-passenger">Distanza da percorrere</p>
+                    <input type="text" placeholder="" id="distance">
+                </div>
+                <div class="card">
+                    <p class="info-passenger">Fascia d'età</p>
+                    <select name="options" id="age">
+                        <option class="maggiorenne">Maggiorenne</option>
+                        <option class="minorenne">Minorenne</option>
+                        <option class="over-65">Over 65</option>
+                    </select>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="generate">Genera</button>
+                <button class="cancel">Annulla</button>
+            </div>
+        </div>
+
+        
+        <div class="your-ticket">
+            <h3>Details</h3>
+            <div class="ticket-info">
+                <div class="card2 passenger">
+                    <h3>Name</h3>
+                    <div class="pass-name">John Show</div>
+                </div>
+                <div class="card2 offer">
+                    <h5>Offerta</h5>
+                    <div class="caratteristica">Biglietto Standard</div>
+                </div>
+                <div class="card2 offer">
+                    <h5>Carrozza</h5>
+                    <div class="caratteristica">5</div>
+                </div>
+                <div class="card2 offer">
+                    <h5>Codice CP</h5>
+                    <div class="caratteristica">92911</div>
+                </div>
+                <div class="card2 offer">
+                    <h5>Costo biglietto</h5>
+                    <div class="caratteristica">2.10&euro;</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

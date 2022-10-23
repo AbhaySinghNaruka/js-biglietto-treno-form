@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #bb4b74;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.price-container{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.your-ticket{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-container{
+    font-size: 1.2rem;
+    color: #bb4b74;
+    margin: 10px;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+}
+
+input, select{
+    margin: 10px;
+    height: 25px;
+}
+
+.buttons{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+.ticket-info{
+    height: 150px;
+    margin: 10px;
+    display: flex;
+}
+
+h3{
+    margin: 10px;
+}
+
+h5{
+    margin: 10px;
+}
+
+.caratteristica{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.card2{
+    height: 120px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: calc(100% / 5);
+}
+
+.pass-name{
+    margin-left: 10px;
+}
+
+.passenger{
+    background-color: grey;
+}
+
+.your-ticket{
+    display: none;
+}
+
+.your-ticket.show{
+    display: block;
+}
